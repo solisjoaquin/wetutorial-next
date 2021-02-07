@@ -21,8 +21,8 @@ const BlogIndexPage: NextPage<{
                 return (
                     <div>
                         <Link
-                            href={`/blog/${x.slug}`}
-                            key={`/blog/${x.slug}`}
+                            href={`/courses/${x.slug}`}
+                            key={`/courses/${x.slug}`}
                         >
                             {x.title}
                         </Link>

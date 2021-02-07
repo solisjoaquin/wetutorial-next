@@ -18,14 +18,14 @@ const SecretPage: NextPage<{
                     {props.error ? "You are not logged in" : "Welcome"}
                 </div>
                 <p >{props.error ?? props.username}</p>
-                <button
+                <div className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
 
                     onClick={() =>
                         Router.push(props.error ? `/api/login` : `/api/logout`)
                     }
                 >
                     {props.error ? "Log in" : "Log out"}
-                </button>
+                </div>
             </div>
         </div>
     );

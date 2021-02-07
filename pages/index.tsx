@@ -1,28 +1,46 @@
 
 import { GetServerSideProps, NextPage } from 'next';
 import Link from 'next/Link'
-import { Router } from 'next/router';
-import auth0 from '../lib/auth0';
+import Cta from '../components/Cta'
+import Header from '../components/Navbar/Header'
+import Footer from '../components/Footer'
 
-const IndexPage: NextPage<{
-    username?: string,
-    error?: string
+import auth0 from '../lib/auth0';
+import React from 'react';
+import Router from "next/router";
+
+
+
+const SecretPage: NextPage<{
+    username?: string;
+    error?: string;
 }> = (props) => {
     return (
-        <>
-            <nav className="flex flex-col">
-                <h1 className="text-2xl text-center" >WeTutorial</h1>
+        <div>
 
-                <div className="flex justify-center p-2">
-                    <Link href="/about">about</Link>
-                    <Link href="/about/me">about me</Link>
+            <div>
+                <Header username={props.username} />
 
+                <Cta />
+                {/* <div >
+                    {props.error ? "You are not logged in" : "Welcome"}
                 </div>
-            </nav>
-        </>
-    )
+                <p >{props.error ?? props.username}</p>
+                <div className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
+
+                    onClick={() =>
+                        Router.push(props.error ? `/api/login` : `/api/logout`)
+                    }
+                >
+                    {props.error ? "Log in" : "Log out"}
+                </div> */}
+                <Footer username={props.username} />
+            </div>
+        </div>
+    );
 };
-/* export const getServerSideProps: GetServerSideProps = async ({
+
+export const getServerSideProps: GetServerSideProps = async ({
     req,
     res,
 }) => {
@@ -38,6 +56,6 @@ const IndexPage: NextPage<{
             props: { error: error.message },
         };
     }
-}; */
+};
 
-export default IndexPage;
+export default SecretPage;
