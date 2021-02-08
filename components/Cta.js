@@ -8,9 +8,9 @@ function Cta() {
                 <div class="container px-8 pt-32 pb-24 mx-auto lg:px-4">
                     <div class="flex flex-col w-full mb-12 text-center">
                         <h2 class="mb-1 text-xs font-semibold tracking-widest text-green-600 uppercase title-font">
-                            Don't save more courses</h2>
+                            Learn togueter</h2>
                         <h1 class="mb-6 text-3xl font-semibold tracking-tighter text-green-800 sm:text-5xl title-font">
-                            Learn to code in groups using your saved courses
+                            Start your saved course with a group
                 </h1>
                         <p class="mx-auto text-base font-medium leading-relaxed text-gray-700 lg:w-2/3">Whatever cardigan
                         tote bag tumblr hexagon brooklyn
