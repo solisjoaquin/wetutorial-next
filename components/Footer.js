@@ -1,7 +1,7 @@
 import Link from 'next/Link'
 import Router from 'next/router'
 
-const Footer = ({ username }) => {
+const Footer = () => {
     return (
         <footer className="bg-white  w-full py-8">
             <div className="max-w-screen-xl mx-auto px-4 flex justify-between">
@@ -18,19 +18,7 @@ const Footer = ({ username }) => {
                     </li>
 
 
-                    {username ?
-                        <div
-                            className="cursor-pointer my-2 mx-3 text-gray-400 hover:text-gray-800 transition-colors duration-200"
-                            onClick={() =>
-                                Router.push(`/api/logout`)
-                            }
-                        >
 
-                            Logout
-                        </div>
-                        : ""
-
-                    }
 
                 </ul>
             </div>

@@ -2,7 +2,7 @@ import Router from 'next/router'
 import Link from 'next/Link'
 import Image from 'next/image'
 
-const Header = ({ username }) => {
+const Header = () => {
     return (
         <div className="flex justify-between p-10 lg:px-32 items-center">
             <div className="text-xl font-bold">
@@ -10,25 +10,16 @@ const Header = ({ username }) => {
                     WeTutorial
             </Link>
             </div>
-            {!username ?
-                <div
-                    className="cursor-pointer"
-                    onClick={() =>
-                        Router.push(username ?? `/api/login`)
-                    }
-                >
-                    Login
+            <div>
+                {/* <a className="text-blue-500" href="https://twitter.com/Wetutorial_">
+                    Twitter
+                </a> */}
+
+                <a href="https://twitter.com/Wetutorial_" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
+                    Twitter
+        </a>
+
             </div>
-                :
-                <div>
-                    <Image
-                        src="/icon-user.webp"
-                        alt="Picture of the author"
-                        width={25}
-                        height={25}
-                    />
-                </div>
-            }
         </div>
     )
 }

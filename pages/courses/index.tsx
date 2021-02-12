@@ -7,10 +7,12 @@ import Header from "../../components/Navbar/Header";
 import Footer from '../../components/Footer'
 import Course from '../../components/Course'
 
+import auth0 from '../../lib/auth0';
+
 
 
 const BlogIndexPage: NextPage<{
-
+    username: string;
     blogs: {
         slug: string;
         title: string;
@@ -21,13 +23,13 @@ const BlogIndexPage: NextPage<{
 
     return (
         <>
-            <Header username />
+            <Header />
 
             <main>
-                <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+                <div className="max-w-7xl mx-auto py-4 sm:px-6 lg:px-8">
 
                     <div className="px-4 py-6 sm:px-0">
-                        <div className="border-4 border-dashed border-gray-200 rounded-lg ">
+                        <div className=" p-4">
                             <p>{props.blogs.map(x => {
                                 return (
                                     <div>
@@ -47,7 +49,8 @@ const BlogIndexPage: NextPage<{
 
                 </div>
             </main>
-            <Footer username />
+
+            <Footer />
 
 
 
@@ -63,5 +66,6 @@ export const getStaticProps: GetStaticProps =
             props: { blogs }
         }
     };
+
 
 export default BlogIndexPage;
