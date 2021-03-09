@@ -50,7 +50,6 @@ const BlogIndexPage: NextPage<{
                 </div>
             </main>
 
-            <Footer />
 
 
 

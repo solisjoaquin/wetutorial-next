@@ -3,6 +3,8 @@ import { GetServerSideProps, NextPage } from 'next';
 import Link from 'next/Link'
 import Cta from '../components/Cta'
 import Header from '../components/Navbar/Header'
+import About from '../components/About'
+import CtaFooter from '../components/CtaFooter'
 import Footer from '../components/Footer'
 import { useContext } from 'react'
 import { useAppContext } from '../context/state'
@@ -26,7 +28,9 @@ const SecretPage: NextPage<{
 
                 <Cta />
 
-                <Footer />
+                <About />
+                <CtaFooter />
+                {/* <Footer /> */}
             </div>
         </div>
     );

@@ -4,20 +4,16 @@ import Image from 'next/image'
 
 const Header = () => {
     return (
-        <div className="flex justify-between p-10 lg:px-32 items-center">
-            <div className="text-xl font-bold">
+        <div className="flex justify-between px-6 mt-6 xl:mt-12 lg:px-32 items-center">
+            <div className="text-2xl font-bold">
                 <Link href="/">
                     WeTutorial
             </Link>
             </div>
             <div>
-                {/* <a className="text-blue-500" href="https://twitter.com/Wetutorial_">
+                <a href="https://twitter.com/Wetutorial_" class="mt-4 max-w-2xl text-lg text-gray-500 lg:mx-auto">
                     Twitter
-                </a> */}
-
-                <a href="https://twitter.com/Wetutorial_" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
-                    Twitter
-        </a>
+                </a>
 
             </div>
         </div>

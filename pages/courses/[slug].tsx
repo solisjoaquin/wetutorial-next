@@ -33,7 +33,6 @@ const BlogPage: NextPage<{
 
                 </div>
             </main>
-            <Footer />
         </div>
     );
 };

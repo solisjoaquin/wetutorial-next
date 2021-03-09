@@ -7,25 +7,31 @@ function Cta() {
             <section class="text-gray-700 body-font">
                 <div class="container px-8 pt-32 pb-24 mx-auto lg:px-4">
                     <div class="flex flex-col w-full mb-12 text-center">
-                        <h2 class="mb-1 text-xs font-semibold tracking-widest text-green-600 uppercase title-font">
-                            Learn togueter</h2>
-                        <h1 class="mb-6 text-3xl font-semibold tracking-tighter text-green-800 sm:text-5xl title-font">
+
+                        {/* <h1 class="mb-6 text-3xl tracking-tighter text-green-800 sm:text-5xl title-font">
                             Start your saved course with a group
-                </h1>
-                        <p class="mx-auto text-base font-medium leading-relaxed text-gray-700 lg:w-2/3">Whatever cardigan
-                        tote bag tumblr hexagon brooklyn
-                        asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of
-                        them man
+                        </h1> */}
+                        <div className="  px-4 sm:px-8 xl:pr-16 md:max-w-3xl md:m-auto">
+
+
+                            <h2 className="pb-5 text-4xl tracking-tight leading-10 font-extrabold sm:text-5xl sm:leading-none md:text-6xl">Start your saved course with a group</h2>
+
+                            <div className="font-light text-gray-800 sm:text-2xl sm:leading-7">
+                                <p>Whatever cardigan
+                                tote bag tumblr hexagon brooklyn
+                                asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of
+                                them man
                     bun deep.</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="flex justify-center">
-                    <Link href="/courses">
-                        <button
-                            class="inline-flex px-8 py-2 font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 focus:shadow-outline focus:outline-none">
-                            
+
+                        <Link href="/courses">
+                            <button className=" sm:w-auto inline-flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-semibold rounded-full shadow-sm xl:text-lg xl:py-2 xl:px-8 text-white transition ease-in-out duration-150 bg-green-700 hover:bg-green-600 active:bg-blue-700" >
                                 Courses
-                        
-                        </button></Link>
+                                </button>
+                        </Link>
                     </div>
                 </div>
             </section>
