@@ -25,29 +25,35 @@ const BlogIndexPage: NextPage<{
         <>
             <Header />
 
-            <main>
-                <div className="max-w-7xl mx-auto py-4 sm:px-6 lg:px-8">
+            <main className="flex flex-col justify-center bg-white dark:bg-black px-8">
+                <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
 
-                    <div className="px-4 py-6 sm:px-0">
-                        <div className=" p-4">
-                            <p>{props.blogs.map(x => {
-                                return (
-                                    <div>
-                                        <Link
-                                            href={`/courses/${x.slug}`}
-                                            key={`/courses/${x.slug}`}
-                                        >
-                                            <Course course={x} />
-
-                                        </Link>
-
-                                    </div>)
-
-                            })}</p>
-                        </div>
-                    </div>
+                    <h2 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
+                        Courses
+                    </h2>
+                    <h3 className="prose text-gray-600 dark:text-gray-400 mb-16">
+                        This is the list of next groups. Follow us in <a className="text-blue-500" href="https://twitter.com/Wetutorial_">Twitter</a> for suggestions.
+                    </h3>
+                    {props.blogs.map(course => {
+                        return (
+                            <Link href={`/courses/${course.slug}`} key={`/courses/${course.slug}`}>
+                                <div className="cursor-pointer mb-4 hover:shadow flex items-center border border-gray-200 dark:border-gray-800 rounded p-4">
+                                    <div className="h-8 w-8 ml-2 mr-4">
+                                        JS
+                                    </div>
+                                    <div className="">
+                                        <h4 className="text-lg font-bold tracking-tight text-gray-900 dark:text-gray-100">{course.title}</h4>
+                                        <p className=" leading-5 text-gray-700 dark:text-gray-300">
+                                            {course.text}
+                                        </p>
+                                    </div>
+                                </div>
+                            </Link>
+                        )
+                    })}
 
                 </div>
+
             </main>
 
 
