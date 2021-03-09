@@ -1,13 +1,13 @@
 function About() {
     return (
 
-        <div class="py-24 bg-white bg-blue-100">
+        <div class="py-24 bg-white bg-gray-700">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="lg:text-center">
-                    <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-50 sm:text-4xl">
                         A better way to send money
                         </p>
-                    <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    <p class="mt-4 max-w-2xl text-xl text-gray-200 lg:mx-auto">
                         Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.
                         </p>
                 </div>
@@ -24,10 +24,10 @@ function About() {
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <dt class="text-lg leading-6 font-medium text-gray-900">
+                                <dt class="text-lg leading-6 font-medium text-gray-50">
                                     Competitive exchange rates
                                 </dt>
-                                <dd class="mt-2 text-base text-gray-500">
+                                <dd class="mt-2 text-base text-gray-200">
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
                                 </dd>
                             </div>
@@ -43,10 +43,10 @@ function About() {
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <dt class="text-lg leading-6 font-medium text-gray-900">
+                                <dt class="text-lg leading-6 font-medium text-gray-50">
                                     No hidden fees
                                 </dt>
-                                <dd class="mt-2 text-base text-gray-500">
+                                <dd class="mt-2 text-base text-gray-200">
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
                                 </dd>
                             </div>
@@ -62,10 +62,10 @@ function About() {
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <dt class="text-lg leading-6 font-medium text-gray-900">
+                                <dt class="text-lg leading-6 font-medium text-gray-50">
                                     Transfers are instant
                                 </dt>
-                                <dd class="mt-2 text-base text-gray-500">
+                                <dd class="mt-2 text-base text-gray-200">
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
                                 </dd>
                             </div>
@@ -81,10 +81,10 @@ function About() {
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <dt class="text-lg leading-6 font-medium text-gray-900">
+                                <dt class="text-lg leading-6 font-medium text-gray-50">
                                     Mobile notifications
                                 </dt>
-                                <dd class="mt-2 text-base text-gray-500">
+                                <dd class="mt-2 text-base text-gray-200">
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
                                 </dd>
                             </div>

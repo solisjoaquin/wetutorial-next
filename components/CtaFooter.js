@@ -2,10 +2,10 @@ import { Link } from 'next/Link'
 
 function CtaFooter() {
     return (
-        <div class="bg-gray-600 py-20">
+        <div class="bg-gray-50 py-20">
             <div class="max-w-2xl mx-auto text-center px-4 sm:py-12 sm:px-6 lg:px-8">
-                <h2 class="text-3xl mb-8 leading-9 font-extrabold text-white sm:text-4xl sm:leading-10">
-                    <span class="block">Start shipping better websites today!</span>
+                <h2 class="text-3xl mb-8 leading-9 font-extrabold text-gray-700 sm:text-4xl sm:leading-10">
+                    <span class="block">Join to our community and learn in groups!</span>
                 </h2>
 
                 <a href="/">
