@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import React from "react";
 import useSWR from "swr";
 import Header from "../../components/Navbar/Header";
+import Head from 'next/head'
 import Footer from '../../components/Footer'
 import Course from '../../components/Course'
 
@@ -23,6 +24,10 @@ const BlogIndexPage: NextPage<{
 
     return (
         <>
+            <Head>
+                <title>Courses</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            </Head>
             <Header />
 
             <main className="flex flex-col justify-center bg-white dark:bg-black px-8">
@@ -32,7 +37,7 @@ const BlogIndexPage: NextPage<{
                         Courses
                     </h2>
                     <h3 className="prose text-gray-600 dark:text-gray-400 mb-16">
-                        This is the list of next groups. Follow us in <a className="text-blue-500" href="https://twitter.com/Wetutorial_">Twitter</a> for suggestions.
+                        This is the list of the next groups. Follow us on <a className="text-blue-500" href="https://twitter.com/Wetutorial_">Twitter</a> for suggestions.
                     </h3>
                     {props.blogs.map(course => {
                         return (

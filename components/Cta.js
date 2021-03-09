@@ -17,11 +17,8 @@ function Cta() {
                             <h2 className="pb-5 text-4xl tracking-tight leading-10 font-extrabold sm:text-5xl sm:leading-none md:text-6xl">Start your saved course with a group</h2>
 
                             <div className="font-light text-gray-800 sm:text-2xl sm:leading-7">
-                                <p>Whatever cardigan
-                                tote bag tumblr hexagon brooklyn
-                                asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of
-                                them man
-                                bun deep.</p>
+                                <p>Join a study group to start those saved courses, learn to code,
+                                    create a project for your portfolio, and develop new skills. </p>
                             </div>
                         </div>
                     </div>

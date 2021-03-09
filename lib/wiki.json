@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Lambda School Free Mini Code Bootcamp",
+        "text": "Build real projects using HTML, CSS, Python, and JavaScript in live, mini classes led by Lambda School’s most popular web development and data science instructors – even if you’re new to coding.",
+        "url": "https://lambdaschool.com/free-mini-code-bootcamp"
+    },
+    {
+        "title": "Jamstack Explorers by Netlify",
+        "text": "This project was built so that anyone can ramp up and learn core premises of Jamstack development on myriad frameworks and metaframeworks.",
+        "url": "https://explorers.netlify.com/"
+    },
+    {
+        "title": "Tailwind CSS Resources you wish you had.",
+        "text": "Let me list a few resources that I found helpful as I was learning. I hope you will add them to your list or keep using them if you have already. ",
+        "url": "https://dev.to/tracycss/tailwind-css-resources-you-wish-you-had-3i18"
+    },
+    {
+        "title": "Free Frontend Masters Web Development Bootcamp",
+        "text": "Get access to everything you need to get started developing websites.Learn HTML, CSS and JavaScript through project-based learning.",
+        "url": "https://frontendmasters.com/bootcamp/"
+    },
+    {
+        "title": "SVG Icons",
+        "text": "The best icon designs from the community. All icon sets are from free Dribbble shots with the original link so you could download them.",
+        "url": "http://svgicons.sparkk.fr/"
+    }
+]

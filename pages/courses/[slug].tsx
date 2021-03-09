@@ -25,8 +25,10 @@ const BlogPage: NextPage<{
 
                         </div>
                         <div className="flex items-center justify-center py-5">
-                            <a href="#" className="flex items-center justify-center lg:max-w-sm px-4 py-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-green-600 bg-green-100 hover:bg-green-50">
-                                Join Discord group
+                            <a href="https://discord.gg/cV6VH7Ks">
+                                <button className=" sm:w-auto inline-flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-semibold rounded-full shadow-sm xl:text-lg xl:py-2 xl:px-8 text-white transition ease-in-out duration-150 bg-green-700 hover:bg-green-600 active:bg-blue-700" >
+                                    Join Discord
+                                </button>
                             </a>
                         </div>
                     </div>

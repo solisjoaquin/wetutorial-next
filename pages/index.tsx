@@ -11,6 +11,7 @@ import { useAppContext } from '../context/state'
 import auth0 from '../lib/auth0';
 import React from 'react';
 import Router from "next/router";
+import Head from 'next/head'
 
 
 
@@ -22,7 +23,10 @@ const SecretPage: NextPage<{
     const ms = useAppContext()
     return (
         <div>
-
+            <Head>
+                <title>WeTutorial</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            </Head>
             <div>
                 <Header />
 
