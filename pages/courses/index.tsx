@@ -1,16 +1,8 @@
 import { GetStaticProps, NextPage } from "next";
 import Link from "next/Link";
-import { useRouter } from "next/router";
 import React from "react";
-import useSWR from "swr";
 import Header from "../../components/Navbar/Header";
 import Head from 'next/head'
-import Footer from '../../components/Footer'
-import Course from '../../components/Course'
-
-import auth0 from '../../lib/auth0';
-
-
 
 const BlogIndexPage: NextPage<{
     username: string;

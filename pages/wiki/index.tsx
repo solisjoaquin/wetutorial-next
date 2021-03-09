@@ -1,5 +1,4 @@
-import Link from "next/dist/client/link";
-import Footer from "../../components/Footer";
+
 import Header from "../../components/Navbar/Header";
 import Head from 'next/head'
 import { GetStaticProps, NextPage } from "next";
@@ -51,19 +50,6 @@ const WikiPage: NextPage<{
                                     </div>
                                 </div>
                             </a>
-                            /*                             <a href={link.url} className="mb-4 hover:shadow">
-                                                            <div className="flex items-center border border-gray-200 dark:border-gray-800 rounded p-4">
-                                                                <div className="h-8 w-8 ml-2 mr-4">
-                                                                    JS
-                                                                </div>
-                                                                <div className="">
-                                                                    <h4 className="text-lg font-bold tracking-tight text-gray-900 dark:text-gray-100">{link.title}</h4>
-                                                                    <p className="leading-5 text-gray-700 dark:text-gray-300">
-                                                                        {link.text}
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </a> */
                         )
                     })}
                 </div>

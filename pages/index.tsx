@@ -1,11 +1,9 @@
 
 import { GetServerSideProps, NextPage } from 'next';
-import Link from 'next/Link'
 import Cta from '../components/Cta'
 import Header from '../components/Navbar/Header'
 import About from '../components/About'
 import CtaFooter from '../components/CtaFooter'
-import Footer from '../components/Footer'
 import { useContext } from 'react'
 import { useAppContext } from '../context/state'
 import auth0 from '../lib/auth0';
@@ -34,7 +32,6 @@ const SecretPage: NextPage<{
 
                 <About />
                 <CtaFooter />
-                {/* <Footer /> */}
             </div>
         </div>
     );
