@@ -1,5 +1,5 @@
 import Router from 'next/router'
-import Link from 'next/Link'
+import Link from 'next/link'
 import Image from 'next/image'
 
 const Header = () => {
