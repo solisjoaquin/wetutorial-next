@@ -37,7 +37,7 @@ function CtaFooter() {
                                         button: "Submit"
                                     }
                                 }
-                                className='sm:w-auto font-extralight inline-flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-semibold rounded-full shadow-sm xl:text-lg xl:py-3 xl:px-8 text-green-600 transition ease-in-out duration-150 '
+                                className='sm:w-auto font-extralight inline-flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-semibold rounded-full shadow-md xl:text-lg xl:py-3 xl:px-8 text-green-600 transition ease-in-out duration-150 '
                             />
                         </div>
                     </form>
