@@ -13,9 +13,14 @@ const Header = () => {
 
             <div>
 
-                <Link href="/courses" className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Courses</Link>
-                <a href="https://twitter.com/wetutorial_" className="mx-4 p-1 sm:p-4 text-gray-900 dark:text-gray-100">Twitter</a>
-                <Link href="/wiki" className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Wiki</Link>
+                <Link href="/courses" >
+                    <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100" >Courses</a>
+                </Link>
+                {/* <a href="https://twitter.com/wetutorial_" className="mx-4 p-1 sm:p-4 text-gray-900 dark:text-gray-100">Twitter</a> */}
+
+                <Link href="/wiki">
+                    <a className="p-1 ml-3 sm:p-4 text-gray-900 dark:text-gray-100" >Wiki</a>
+                </Link>
 
             </div>
         </div>

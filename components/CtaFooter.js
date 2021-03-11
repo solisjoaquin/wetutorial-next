@@ -2,6 +2,7 @@ import Mailchimp from 'react-mailchimp-form'
 
 
 function CtaFooter() {
+
     return (
         <div class="py-20">
             <div class="max-w-2xl mx-auto text-center px-4 sm:py-12 sm:px-6 lg:px-8">
@@ -41,6 +42,7 @@ function CtaFooter() {
                             />
                         </div>
                     </form>
+
                 </div>
 
                 {/*                 <a href="https://discord.gg/cV6VH7Ks">
