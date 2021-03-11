@@ -1,6 +1,6 @@
 const CourseDetail = ({ course }) => {
 
-    return (<div class="bg-green-200 shadow overflow-hidden sm:rounded-lg">
+    return (<div class="bg-blue-200 shadow overflow-hidden sm:rounded-lg">
         <div class="px-4 py-5   sm:px-6">
             <h3 class="text-lg leading-6 font-medium text-gray-900">
                 Course details
