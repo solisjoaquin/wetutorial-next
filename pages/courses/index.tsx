@@ -48,7 +48,7 @@ const BlogIndexPage: NextPage<{
                                             <dt className="text-lg leading-6 font-medium text-gray-900">
                                                 {course.title}
                                             </dt>
-                                            <dd className="mt-2 text-base text-gray-500">
+                                            <dd className="mt-2 text-base text-gray-500 line-clamp-2">
                                                 {course.text}
                                             </dd>
                                         </div>

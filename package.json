@@ -10,6 +10,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "@tailwindcss/line-clamp": "^0.2.0",
     "autoprefixer": "^10.2.4",
     "dotenv": "^8.2.0",
     "next": "^10.0.6",
