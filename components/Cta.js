@@ -5,7 +5,7 @@ function Cta() {
 
         <>
             <section class=" text-gray-700 body-font">
-                <div class="container px-8 pt-32 pb-24 mx-auto lg:px-4">
+                <div class="container px-8 pt-28 pb-24 mx-auto lg:px-4">
                     <div class="flex flex-col w-full mb-12 text-center">
 
                         {/* <h1 class="mb-6 text-3xl tracking-tighter text-blue-800 sm:text-5xl title-font">
