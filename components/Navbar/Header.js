@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 const Header = () => {
     return (
-        <div className="flex justify-between px-6 mt-6 mb-4 xl:mt-12 lg:px-32 items-center">
-            <div className="font-bold text-2xl md:text-3xl tracking-tight text-black dark:text-white">
+        <div className="flex justify-between bg-white px-6 mt-6 mb-4 xl:mt-12 lg:px-32 dark:bg-black items-center">
+            <div className="font-bold text-2xl md:text-3xl tracking-tight text-black  dark:text-white">
                 <Link href="/">
                     WeTutorial
                 </Link>
@@ -21,6 +21,7 @@ const Header = () => {
                 <Link href="/wiki">
                     <a className="p-1 ml-3 sm:p-4 text-gray-900 dark:text-gray-100" >Wiki</a>
                 </Link>
+
 
             </div>
         </div>

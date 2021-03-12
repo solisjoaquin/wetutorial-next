@@ -21,12 +21,12 @@ const SecretPage: NextPage<{
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <link rel="shortcut icon" href="/favicon.ico" />
             </Head>
-            <div>
-                <Header />
-                <Cta />
-                <About />
-                <CtaFooter />
-            </div>
+
+            <Header />
+            <Cta />
+            <About />
+            <CtaFooter />
+
         </div>
     );
 };
