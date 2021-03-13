@@ -45,7 +45,7 @@ const WikiPage: NextPage<{
                                             <dt className="text-lg leading-6 font-medium text-gray-900 dark:text-white">
                                                 {link.title}
                                             </dt>
-                                            <dd className="mt-2 text-base text-gray-500">
+                                            <dd className="mt-2 text-base text-gray-500 line-clamp-3">
                                                 {link.text}
                                             </dd>
                                         </div>
