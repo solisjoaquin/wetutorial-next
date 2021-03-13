@@ -1,0 +1,53 @@
+.ck-fm {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px 20px;
+  }
+  
+  .ck-fm input,
+  .ck-fm button {
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    border-radius: inherit;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .ck-fm input {
+    flex: 1 1 0%;
+    
+    border-radius: 9999px;
+    
+    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+    display: block;
+    height: 35px;
+    margin: 0 0 15px;
+    padding: 1.5rem;
+    
+  }
+
+  .ck-fm input::placeholder {
+    --tw-placeholder-opacity: 1;
+color: #6b7280;
+  }
+  textarea:focus, input:focus{
+    outline: none;
+  }
+
+  .ck-fm button {
+    --tw-bg-opacity: 1;
+  background-color: rgba(29, 78, 216);
+  border-radius: 9999px;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s cubic-bezier(0.5, 0, 0.5, 1), opacity 0.2s linear;
+    cursor: pointer;
+  }
+  
+  .ck-fm button:hover {
+    transform: scale(1.02);
+    opacity: 0.9;
+  }
