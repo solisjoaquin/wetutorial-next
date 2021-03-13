@@ -4,7 +4,7 @@
         "title": "The Beginner's Guide to React",
         "author": "Kent C. Dodds",
         "type": "Free",
-        "startdate": "March 12, 2021",
+        "startdate": "March 29, 2021",
         "duration": "1 week",
         "text": "This course is for React newbies and anyone looking to build a solid foundation. It’s designed to teach you everything you need to start building web applications in React right away.",
         "url": "https://egghead.io/courses/the-beginner-s-guide-to-react"
@@ -14,7 +14,7 @@
         "title": "Design with Tailwind CSS Masterclass",
         "author": "Adam Wathan",
         "type": "Free",
-        "startdate": "March 2, 2021",
+        "startdate": "Abril 5, 2021",
         "duration": "2 weeks",
         "text": "Design with Tailwind CSS is a series that teaches you how to build fully responsive, professionally designed UIs from scratch using Tailwind CSS.",
         "url": "https://egghead.io/courses/design-with-tailwind-css-masterclass-f0db"
@@ -24,7 +24,7 @@
         "title": "Learn NextJS",
         "author": "Lee Robinson",
         "type": "Free",
-        "startdate": "March 1, 2021",
+        "startdate": "Abril 12, 2021",
         "duration": "1 week",
         "text": "A free video course for building static and server-side rendered applications with Next.js and React.",
         "url": "https://masteringnextjs.com/"
