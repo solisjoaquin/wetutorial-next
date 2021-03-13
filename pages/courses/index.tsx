@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import Header from "../../components/Navbar/Header";
 import Head from 'next/head'
+import CtaFooter from "../../components/CtaFooter";
 
 const BlogIndexPage: NextPage<{
     username: string;
@@ -22,7 +23,7 @@ const BlogIndexPage: NextPage<{
             </Head>
             <Header />
 
-            <main className="flex flex-col justify-center bg-white dark:bg-black px-8">
+            <main className="flex flex-col justify-center bg-white dark:bg-gray-900 px-8">
                 <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
 
                     <h2 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
@@ -45,7 +46,7 @@ const BlogIndexPage: NextPage<{
                                             </div>
                                         </div>
                                         <div className="ml-4">
-                                            <dt className="text-lg leading-6 font-medium text-gray-900">
+                                            <dt className="text-lg leading-6 font-medium text-gray-900 dark:text-white">
                                                 {course.title}
                                             </dt>
                                             <dd className="mt-2 text-base text-gray-500 line-clamp-2">
@@ -61,7 +62,7 @@ const BlogIndexPage: NextPage<{
                 </div>
 
             </main>
-
+            <CtaFooter />
 
 
 

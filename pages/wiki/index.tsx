@@ -18,10 +18,10 @@ const WikiPage: NextPage<{
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
             <Header />
-            <main className="flex flex-col justify-center bg-white dark:bg-black px-8">
+            <main className="flex flex-col justify-center bg-white dark:bg-gray-900 px-8">
                 <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
 
-                    <h2 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
+                    <h2 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 pt-8 text-black dark:text-white">
                         Resources
                     </h2>
                     <h3 className="prose text-gray-600 dark:text-gray-400 mb-16">
@@ -42,7 +42,7 @@ const WikiPage: NextPage<{
                                             </div>
                                         </div>
                                         <div className="ml-4">
-                                            <dt className="text-lg leading-6 font-medium text-gray-900">
+                                            <dt className="text-lg leading-6 font-medium text-gray-900 dark:text-white">
                                                 {link.title}
                                             </dt>
                                             <dd className="mt-2 text-base text-gray-500">

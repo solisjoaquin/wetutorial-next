@@ -15,7 +15,7 @@ const SecretPage: NextPage<{
 }> = () => {
     const ms = useAppContext()
     return (
-        <div>
+        <div className="dark:bg-gray-900">
             <Head>
                 <title>WeTutorial</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
