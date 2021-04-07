@@ -1,0 +1,10 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+@font-face {
+  font-family: "Recoleta Bold";
+  src: local('Recoleta Bold'), local('Recoleta Bold'),
+  url('/fonts/Recoleta/Recoleta-Bold.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}

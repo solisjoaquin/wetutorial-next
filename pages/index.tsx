@@ -20,6 +20,9 @@ const SecretPage: NextPage<{
                 <title>WeTutorial</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <link rel="shortcut icon" href="/favicon.ico" />
+
+                <link rel="preconnect" href="https://fonts.gstatic.com" />
+                <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
             </Head>
 
             <Header />

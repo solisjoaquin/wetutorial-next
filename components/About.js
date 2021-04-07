@@ -4,7 +4,7 @@ function About() {
         <div class="py-24 bg-white bg-gray-700">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="lg:text-center">
-                    <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-50 sm:text-4xl">
+                    <p class="title mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-50 sm:text-4xl">
                         FAQs
                         </p>
                     <p class="mt-4 max-w-2xl text-xl text-gray-200 lg:mx-auto">
