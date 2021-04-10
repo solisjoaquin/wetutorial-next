@@ -5,8 +5,11 @@ import Header from '../components/Navbar/Header'
 import About from '../components/About'
 import { useAppContext } from '../context/state'
 import CtaFooter from '../components/CtaFooter'
+import { Steps } from '../components/Steps'
+import { ListOfPoints } from '../components/ListOfPoints'
 import React from 'react';
 import Head from 'next/head'
+import Footer from '../components/Footer';
 
 const SecretPage: NextPage<{
     ms: string;
@@ -26,9 +29,13 @@ const SecretPage: NextPage<{
             </Head>
 
             <Header />
+
             <Cta />
+            <ListOfPoints />
+            <Steps />
             <About />
             <CtaFooter />
+            <Footer />
 
         </div>
     );

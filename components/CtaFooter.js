@@ -24,7 +24,7 @@ function CtaFooter() {
     }
     const { theme, setTheme } = useTheme();
     return (
-        <div class=" py-20 dark:bg-gray-900">
+        <div class=" pt-20 pb-16 dark:bg-gray-900">
 
             <div class=" max-w-2xl mx-auto text-center px-4 sm:py-8 sm:px-6 lg:px-8">
 
