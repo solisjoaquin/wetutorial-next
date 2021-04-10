@@ -33,7 +33,7 @@ export const Steps: NextPage<{}> = () => {
                         <div className="flex justify-center my-2" >
                             <span className="h-10 w-10 bg-blue-500 flex items-center justify-center rounded-full text-lg leading-10 font-display font-bold text-white" > 4 </span>
                         </div>
-                        < h4 className="text-lg font-semibold text-black dark:text-gray-100 " > End of a course </h4>
+                        < h4 className="text-lg font-semibold text-black dark:text-gray-100 " >End of the course </h4>
                         < p className="mt-3 text-base font-medium text-gray-600 dark:text-gray-400" > After the set period, the study group will be closed and you can start a new one.</p>
                     </div>
                 </div>
