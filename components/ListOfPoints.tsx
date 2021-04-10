@@ -1,4 +1,7 @@
-export const ListOfPoints = () => {
+
+import { NextPage } from "next"
+
+export const ListOfPoints: NextPage<{}> = () => {
     return (
         <div className="pt-28 pb-32 px-8 bg-gray-700 flex justify-center">
             <div className="max-w-6xl flex flex-col lg:flex-row justify-center">
