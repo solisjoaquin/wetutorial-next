@@ -9,7 +9,11 @@ const BlogPage: NextPage<{
     title: string;
     text: string;
     author: string;
-    url: string
+    url: string,
+    type: string,
+    date: string,
+    startdate: string,
+
 }> = (props) => {
 
     return (

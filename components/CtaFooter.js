@@ -24,12 +24,12 @@ function CtaFooter() {
     }
     const { theme, setTheme } = useTheme();
     return (
-        <div class=" pt-20 pb-16 dark:bg-gray-900">
+        <div className=" pt-20 pb-16 dark:bg-gray-900">
 
-            <div class=" max-w-2xl mx-auto text-center px-4 sm:py-8 sm:px-6 lg:px-8">
+            <div className=" max-w-2xl mx-auto text-center px-4 sm:py-8 sm:px-6 lg:px-8">
 
-                <h2 class="title text-3xl mb-8 leading-9 pt-4 font-extrabold text-gray-700 sm:text-4xl sm:leading-10 dark:text-white">
-                    <span class="block">Subscribe to receive updates about study groups</span>
+                <h2 className="title text-3xl mb-8 leading-9 pt-4 font-extrabold text-gray-700 sm:text-4xl sm:leading-10 dark:text-white">
+                    <span className="block">Subscribe to receive updates about study groups</span>
                 </h2>
                 <ConvertKitForm className="ck-fm " formId={MY_FORM_ID} />
             </div>
