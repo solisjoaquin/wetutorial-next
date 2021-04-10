@@ -1,4 +1,4 @@
-
+import { NextPage } from "next"
 const Button = ({ theme }) => {
     return (
 

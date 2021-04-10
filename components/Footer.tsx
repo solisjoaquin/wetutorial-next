@@ -2,7 +2,7 @@ import { NextPage } from "next"
 
 export const Footer: NextPage<{}> = () => {
     return (
-        <div className="py-4">
+        <div className="py-4 dark:bg-gray-900">
             <ul className="flex text-sm justify-center dark:text-white">
                 <li className="mx-2"><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/wetutorial_">Twitter</a></li>
                 <li className="mx-2"><a target="_blank" rel="noopener noreferrer" href="https://github.com/solisjoaquin/wetutorial-next">Github</a></li>
