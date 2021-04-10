@@ -27,7 +27,7 @@ export const Steps: NextPage<{}> = () => {
                             <span className="h-10 w-10 bg-blue-500 flex items-center justify-center rounded-full text-lg leading-10 font-display font-bold text-white" > 3 </span>
                         </div>
                         < h4 className="text-lg font-semibold text-black dark:text-gray-100 " > Start the course </h4>
-                        < p className="mt-3 text-base font-medium text-gray-600 dark:text-gray-400" > Ask questions in the group to resolve our beloved < span className="text-red-400" > error messages</span>. Help others if you have already solved that issue.</p >
+                        < p className="mt-3 text-base font-medium text-gray-600 dark:text-gray-400" > Ask questions in the group to resolve our beloved < span className="text-red-400" > error messages</span>. Help others if you have already solved those issues.</p >
                     </div>
                     < div className="my-6 text-center mx-5 px-4 py-5 rounded-lg shadow-lg lg:w-1/4 dark:bg-gray-800" >
                         <div className="flex justify-center my-2" >
