@@ -1,32 +1,45 @@
 [
     {
-        "slug": "beginner-react",
-        "title": "The Beginner's Guide to React",
-        "author": "Kent C. Dodds",
+        "slug": "learn-next",
+        "title": "Mastering NextJS",
+        "author": "Lee Robinson",
         "type": "Free",
-        "startdate": "March 29, 2021",
-        "duration": "1 week",
-        "text": "This course is for React newbies and anyone looking to build a solid foundation. It’s designed to teach you everything you need to start building web applications in React right away.",
-        "url": "https://egghead.io/courses/the-beginner-s-guide-to-react"
+        "startdate": "Soon",
+        "duration": "3 weeks",
+        "text": "A free video course for building static and server-side rendered applications with Next.js and React.",
+        "url": "https://masteringnextjs.com/"
     },
+
     {
         "slug": "tailwind-masterclass",
         "title": "Design with Tailwind CSS Masterclass",
         "author": "Adam Wathan",
         "type": "Free",
-        "startdate": "Abril 5, 2021",
+        "startdate": "Soon",
         "duration": "2 weeks",
         "text": "Design with Tailwind CSS is a series that teaches you how to build fully responsive, professionally designed UIs from scratch using Tailwind CSS.",
         "url": "https://egghead.io/courses/design-with-tailwind-css-masterclass-f0db"
     },
-    {
-        "slug": "learn-next",
-        "title": "Learn NextJS",
-        "author": "Lee Robinson",
+   
+        {
+        "slug": "netflix-clone",
+        "title": "Netflix Clone - React Tutorial - Styled Components - Firebase",
+        "author": " Karl Hadwen",
         "type": "Free",
-        "startdate": "Abril 12, 2021",
-        "duration": "1 week",
-        "text": "A free video course for building static and server-side rendered applications with Next.js and React.",
-        "url": "https://masteringnextjs.com/"
-    }
+        "startdate": "Soon",
+        "duration": "2 weeks",
+        "text": "In this React Tutorial, we will build a Netflix clone! This React project has multiple pages: Home, Browse (which uses Firebase authentication), sign in, and sign up. The sign in will connect to Firebase when a user tries to sign in, and when a user signs up, we will use Firebase auth to store the user in the Firebase auth database.",
+        "url": "https://www.youtube.com/watch?v=x_EEwGe-a9o&list=LL&index=32"
+    },
+        {
+        "slug": "instagram-clone",
+        "title": "Instagram Clone - React Tutorial - Tailwind CSS - Firebase - React Testing Library",
+        "author": " Karl Hadwen",
+        "type": "Free",
+        "startdate": "Soon",
+        "duration": "2 weeks",
+        "text": "In this React Tutorial, we will build an Instagram clone! This React project has multiple pages: login, sign up, dashboard (to view/like/comment on photos), and user profiles. The sign-in page will connect to Firebase when a user tries to sign in, and when a user signs up, we will use Firebase auth to store the user in the Firebase auth database.",
+         "url": "https://www.youtube.com/watch?v=AKeaaa8yAAk"
+    },
+    
 ]
