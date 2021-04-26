@@ -1,0 +1,12 @@
+[
+    {
+        "slug": "desarrollo-web",
+        "title": "Introducción al Desarrollo Web",
+        "author": "Franco Di Leo (@Franco_DiLeo)",
+        "type": "Gratis",
+        "startdate": "Por definir",
+        "duration": "5 weeks",
+        "text": "El curso esta compuesto de una serie de videos de Youtube, dado por Franco Di Leo, Software Engineer Analyst en Mercado Libre y fundador de PunchIt. El objectivo sera aprender juntos lo basico de HTML, CSS, Javascript y Git.",
+        "url": "https://youtube.com/playlist?list=PLtKI8MF06ilBBbF_8KAcceCbFD4ZUsbrs"
+    }
+]

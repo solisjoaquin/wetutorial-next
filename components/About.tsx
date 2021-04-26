@@ -29,7 +29,7 @@ export const About: NextPage<{}> = () => {
                                     How is the group modality?
                                 </dt>
                                 <dd className="mt-2 text-base text-gray-200">
-                                    We select an online course and create a study group on Discord. These groups are meant to help each other, NOT TO SHARE CONTENT.
+                                    We select an online course and create a study group on Slack. These groups are meant to help each other, NOT TO SHARE CONTENT.
                                 </dd>
                             </div>
                         </div>
@@ -85,7 +85,7 @@ export const About: NextPage<{}> = () => {
                                     What happens if someone shares paid content?
                                 </dt>
                                 <dd className="mt-2 text-base text-gray-200">
-                                    We respect content creators for their work to teach us. We will not allow pirated content. That person will no longer participate on Discord.
+                                    We respect content creators for their work to teach us. We will not allow pirated content. That person will no longer participate on Slack.
                                 </dd>
                             </div>
                         </div>

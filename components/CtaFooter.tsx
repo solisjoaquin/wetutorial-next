@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { useTheme } from 'next-themes';
-import Button from './Button'
 import ConvertKitForm from 'convertkit-react'
 
 

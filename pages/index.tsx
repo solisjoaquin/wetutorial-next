@@ -12,9 +12,9 @@ import Head from 'next/head'
 import Footer from '../components/Footer';
 
 const SecretPage: NextPage<{
-    ms: string;
-    username?: string;
-    error?: string;
+    /*     ms: string;
+        username?: string;
+        error?: string; */
 }> = () => {
     const ms = useAppContext()
     return (
