@@ -10,4 +10,4 @@
 * TailwindCSS
 
 ## Demo 
-(https://wetutorial.club/)[https://wetutorial.club/]
+https://wetutorial.club/
