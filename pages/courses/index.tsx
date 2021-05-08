@@ -4,7 +4,7 @@ import React from "react";
 import Header from "../../components/Navbar/Header";
 import Head from 'next/head'
 import CtaFooter from "../../components/CtaFooter";
-import { CardIntro } from "../../components/CardIntro";
+
 
 const BlogIndexPage: NextPage<{
     username: string;
@@ -33,7 +33,7 @@ const BlogIndexPage: NextPage<{
                     <h3 className="prose text-gray-600 dark:text-gray-400 mb-16">
                         This is the list of the next groups. Follow us on <a className="text-blue-500" href="https://twitter.com/Wetutorial_">Twitter</a> for suggestions.
                     </h3>
-                    <CardIntro />
+                    
                     {props.blogs.map(course => {
                         return (
                             <Link href={`/courses/${course.slug}`} key={`/courses/${course.slug}`}>
