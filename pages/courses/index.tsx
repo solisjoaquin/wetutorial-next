@@ -31,7 +31,7 @@ const BlogIndexPage: NextPage<{
                         Courses
                     </h2>
                     <h3 className="prose text-gray-600 dark:text-gray-400 mb-16">
-                        This is the list of the next groups. Follow us on <a className="text-blue-500" href="https://twitter.com/Wetutorial_">Twitter</a> for suggestions.
+                        This is the list of the next groups.
                     </h3>
                     
                     {props.blogs.map(course => {
